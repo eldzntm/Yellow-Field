@@ -1,0 +1,15 @@
+version="1.0.0"
+tags={
+	"Alternative History"
+	"Events"
+	"Historical"
+	"Map"
+	"Translation"
+	"National Focuses"
+	"Military"
+	"Ideologies"
+	"Technologies"
+	"Gameplay"
+}
+name="Yellow Field"
+supported_version="1.14.7"
