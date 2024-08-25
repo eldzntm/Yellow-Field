@@ -1,41 +1,22 @@
+
 state = {
 	id = 446
-	name = "STATE_446" # Suez
-	manpower = 131732
-	state_category = wasteland
+	name = "STATE_446"
+    resources={
+        
+    }
 
-	history = {
-
-		owner = ENG
-		add_core_of = EGY
-
-		buildings = {
-			infrastructure = 3
-			
-			12049 = {
-				naval_base = 2
-			}
-			4073 = {
-				naval_base = 1
-			}
-
-		}
-		
-		victory_points = {
-			12049 5 
-		}
-		
-		victory_points = {
-			4073 3 
-		}
-
+	history={
+		owner = LUX
+		add_core_of = LUX
 	}
 
 	provinces = {
-		1155 4073 9947 12049 
+		992 1068 3996 4055 4076 4143 4145 7011 7091 7117 7164 7188 10005 10031 10073 11964 12004
 	}
-
-	buildings_max_level_factor = 1.000
-	
-	local_supplies = 0.000
+    manpower = 7886596
+    buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
+            

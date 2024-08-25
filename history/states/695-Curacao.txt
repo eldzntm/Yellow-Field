@@ -1,33 +1,22 @@
-state={
-	id=695
-	name="STATE_695"
-	manpower = 76299
-	
-	state_category = rural
 
-	resources={
-		oil=35 # was: 126
-	}
+state = {
+	id = 695
+	name = "STATE_695"
+    resources={
+        
+    }
 
 	history={
-		add_core_of = CRC
-		owner = HOL
-		victory_points = {
-			153 1
-		}
-		buildings = {
-			fuel_silo = 1
-			infrastructure = 2
-			153 = {
-				naval_base = 1
-				coastal_bunker = 2
-			}
-		}
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		153 
+	provinces = {
+		153
 	}
-
-	local_supplies=0.0 
+    manpower = 44000
+    buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
 }
+            

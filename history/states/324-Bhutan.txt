@@ -1,32 +1,22 @@
 
-state={
-	id=324
-	name="STATE_324"
-	manpower = 450000
-	
-	
-	state_category = town
-	
-	resources={
-		tungsten=2 # was: 2
-	}
+state = {
+	id = 324
+	name = "STATE_324"
+    resources={
+        tungsten=1
+    }
 
 	history={
-		owner = BHU
-		buildings = {
-			infrastructure = 1
-			arms_factory = 1
-			industrial_complex = 2 
-		}
-		victory_points = {
-			8010 3 
-		}
-		add_core_of = BHU
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		8010 12860 
+	provinces = {
+		8010 12860
 	}
-
-	local_supplies=0.0 
+    manpower = 280000
+    buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
+            

@@ -1,0 +1,22 @@
+
+state = {
+	id = 574
+	name = "STATE_574"
+    resources={
+        
+    }
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces = {
+		1714 1748 1795 1805 1878 4675 4726 4752 4798 4821 4832 4855 4881 7691 7746 7765 7772 7785 7817 7844 7867 7882 7889 10565 10572 10608 10641 10667 10701 10714 12565 12611 12623 12650 12694
+	}
+    manpower = 210359
+    buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
+            

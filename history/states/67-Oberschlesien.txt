@@ -1,33 +1,23 @@
 
-state={
-	id=67
-	name="STATE_67"
-	manpower = 1402591
-	resources={
-		steel=8 #was 11 #was: 11 was 19 # was: 60
-		aluminium=6 # was: 20
-	}
-	
-	state_category = city
+state = {
+	id = 67
+	name = "STATE_67"
+    resources={
+        aluminium=22
+		steel=28
+    }
 
 	history={
-		victory_points = {
-			11467 5
-		}
-		victory_points = {
-			9511 3
-		}
-		owner = GER
-		buildings = {
-			infrastructure = 3
-		}
-		add_core_of = GER
-		add_core_of = SIL
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		479 6512 9457 9511 11467 
+	provinces = {
+		479 9457 9511 11467
 	}
-
-	local_supplies=4.0 
+    manpower = 1402591
+    buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
+            

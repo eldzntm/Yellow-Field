@@ -1,36 +1,23 @@
 
-state={
-	id=481
-	name="STATE_481" # Durango
-	manpower = 1255094
-	
-	state_category = rural
-	
+state = {
+	id = 481
+	name = "STATE_481"
+    resources={
+        steel=10.000
+		oil=16.000
+    }
+
 	history={
-		owner = MEX
-		buildings = {
-			infrastructure = 2
-			dockyard = 1
-			8057 = {
-				naval_base = 3
-			}
-		}
-		add_core_of = MEX
-		victory_points = {
-			7921 10
-		}
-		#victory_points = {
-		#	8057 10
-		#}
-		#victory_points = {
-		#	10895 5
-		#}
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		1945 4946 7921 8003 8057 10853 10871 10895 12804 
+	provinces = {
+		1945 8057 10895 13241 13242 13243 13244 13245 13246
 	}
-	
-
-	local_supplies=6.0 
+    manpower = 323642
+    buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
+            

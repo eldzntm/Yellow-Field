@@ -1,0 +1,22 @@
+
+state = {
+	id = 1006
+	name = "STATE_1006"
+    resources={
+        
+    }
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces = {
+		3943
+	}
+    manpower = 27426
+    buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}
+            

@@ -1,27 +1,22 @@
-state={
-	id=545
-	
-	state_category = pastoral
-	
-	name="STATE_545"
+
+state = {
+	id = 545
+	name = "STATE_545"
+    resources={
+        
+    }
 
 	history={
-		owner = ENG
-		buildings = {
-			infrastructure = 2
-
-		}
-		victory_points = {
-			10929 1 
-		}
-		add_core_of = ZIM
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
+	provinces = {
 		1874 2151 2216 4851 7842 10929
 	}
-	manpower=1171336
-	buildings_max_level_factor=1.000
-
-	local_supplies=3.0 
+    manpower = 734000
+    buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
+            

@@ -1,29 +1,22 @@
+
 state = {
 	id = 299
 	name = "STATE_299"
-	manpower = 2463
-	
-	state_category = enclave
-	
-	history = {
+    resources={
+        
+    }
 
-		owner = ENG
-		add_claim_by = ARG
-
-		buildings = {
-			infrastructure = 1
-			12960 = {
-				naval_base = 1
-			}
-		}
-
-		victory_points = {
-			12960 1
-		}
-		
+	history={
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces = { 12960 13292 }
-
-	local_supplies = 0.0 
+	provinces = {
+		12960
+	}
+    manpower = 2463
+    buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
 }
+            

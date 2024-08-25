@@ -11,5 +11,10 @@ tags={
 	"Technologies"
 	"Gameplay"
 }
+replace_path="history/states"
+replace_path="map"
+replace_path="map/strategicregions"
+replace_path="map/supplyareas"
+replace_path="map/terrain"
 name="Yellow Field"
 supported_version="1.14.7"

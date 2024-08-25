@@ -1,27 +1,22 @@
-state={
-	id=332
-	name="STATE_332"
-	
-	state_category = wasteland
+
+state = {
+	id = 332
+	name = "STATE_332"
+    resources={
+        
+    }
 
 	history={
-		owner = ENG
-		buildings = {
-			infrastructure = 1
-
-			12503 = {
-				naval_base = 1
-			}
-		}
-		add_core_of = CAN
-
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		1426 1785 4720 4787 12503 13165 13180 
+	provinces = {
+		1426 11607 13062
 	}
-	manpower=22179
-	buildings_max_level_factor=1.000
-
-	local_supplies=0.0 
+    manpower = 22179
+    buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }
+            

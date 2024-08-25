@@ -2,35 +2,22 @@
 state = {
 	id = 408
 	name = "STATE_408"
-	manpower = 841465
-	resources = {
-		chromium=20 # was: 28
-	}
-	
-	state_category = town
+    resources={
+        steel=2
+		chromium=10
+    }
 
 	history={
-		owner = SOV
-		victory_points = {
-			957 15
-		}
-		buildings = {
-			infrastructure = 2
-			dockyard = 1
-			air_base = 5
-			957 = {
-				naval_base = 8
-				coastal_bunker = 3
-			}
-		}
-		add_core_of = SOV
-		add_core_of = FER
-		add_core_of = VLA
+		owner = LUX
+		add_core_of = LUX
 	}
 
 	provinces = {
-		664 681 837 957 3695 3723 3739 3753 3787 3811 3977 6684 6686 6715 6833 6838 6961 6989 9639 9641 9762 9895 9926 11624 11626 11629 11643 11745 11750 11765 11777 11879 11904 
+		957 1741 6989 9762 10589
 	}
-
-	local_supplies = 0.0 
+    manpower = 300000
+    buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
+            

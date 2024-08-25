@@ -1,25 +1,22 @@
-state={
-	id=734
-	name="STATE_734"
-	manpower = 5167
-	state_category = tiny_island
+
+state = {
+	id = 734
+	name = "STATE_734"
+    resources={
+        
+    }
 
 	history={
-		owner = FRA
-		add_core_of = TAH
-		buildings = {
-			infrastructure = 2
-			7390 = {
-				naval_base = 1
-			}
-		}
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	buildings_max_level_factor=1.000
-
-	provinces={
-		7390 
+	provinces = {
+		7390
 	}
-
-	local_supplies=0.0 
+    manpower = 5167
+    buildings_max_level_factor=1.000
+	state_category=tiny_island
+	local_supplies=0.000
 }
+            

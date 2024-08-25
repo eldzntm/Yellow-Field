@@ -1,23 +1,22 @@
-state={
-	id=786
-	name="STATE_786" # Mauritanian Desert
-	manpower = 124200
-	
-	state_category = wasteland
-	impassable = yes
+
+state = {
+	id = 786
+	name = "STATE_786"
+    resources={
+        
+    }
 
 	history={
-		owner = FRA
-		add_core_of = MRT
-		buildings = {
-			infrastructure = 0
-		}
-
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		1897 1962 7943 8035 10771 10779 10838
+	provinces = {
+		10779
 	}
-
-	local_supplies=0.0 
+    manpower = 104200
+    buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }
+            

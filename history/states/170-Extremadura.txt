@@ -1,30 +1,22 @@
-state={
-	id=170
-	name="STATE_170"
-	resources={
-		tungsten=4.000
-	}
+
+state = {
+	id = 170
+	name = "STATE_170"
+    resources={
+        tungsten=4
+    }
 
 	history={
-		owner = SPR
-		victory_points = {
-			6902 1 
-		}
-		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
-
-		}
-		add_core_of = SPR
-
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		809 931 985 3930 6866 6902 6948 6954 9839 9877 9917 9925 11756 11780 11798 11851 13230 
+	provinces = {
+		794 809 874 931 985 3874 3930 6866 6867 6902 6948 6954 9770 9839 9877 9917 9925 11756 11780 11798 11851
 	}
-	manpower=1417652
-	buildings_max_level_factor=1.000
-	state_category=town
-
-	local_supplies=0.0 
+    manpower = 1782253
+    buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }
+            

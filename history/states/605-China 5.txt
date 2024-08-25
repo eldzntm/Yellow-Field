@@ -1,45 +1,22 @@
-state={
-	id=605
-	name="STATE_605"
-	resources={
-		steel=14.000
-	}
+
+state = {
+	id = 605
+	name = "STATE_605"
+    resources={
+        steel=3
+    }
 
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
-		buildings = {
-			infrastructure = 4
-			arms_factory = 3
-			industrial_complex = 3
-			air_base = 2
-		}
-		victory_points = {
-			4925 5 
-		}
-		victory_points = {
-			6999 20 
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-				infrastructure = 3 #was: 6
-				air_base = 3
-				arms_factory = 3
-
-			}
-
-		}
-
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		1367 1395 1893 2030 2091 4925 5048 6999 7240 7256 8026 10132 10144 11865 12274 12705 12767 
+	provinces = {
+		1367 1395 1893 2030 2091 4041 4141 4431 4925 5048 6999 7240 7256 8026 10132 10144 10304 11865 11972 12141 12274 12705 12767 12819 1918 1999 2067 4999 7294 7988 8104 10726 10841 12724 12837 10787 4403 1257 10903 4375 9966 10822
 	}
-	manpower=52963300
-	buildings_max_level_factor=1.000
+    manpower = 48130000
+    buildings_max_level_factor=1.000
 	state_category=city
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }
+            

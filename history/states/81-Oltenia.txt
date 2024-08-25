@@ -1,25 +1,22 @@
-state={
-	id=81
-	name="STATE_81"
-	manpower=1519300
-	
-	
-	state_category = rural
-	
+
+state = {
+	id = 81
+	name = "STATE_81"
+    resources={
+        
+    }
+
 	history={
-		victory_points = {
-			6652 1
-		}
-		owner = ROM
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-		}
-		add_core_of = ROM
-	}
-	provinces={
-		637 3630 3645 6652 6667 11588 11605 11657 
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	local_supplies=0.0 
+	provinces = {
+		637 3630 3645 6652 6667 11588 11605 11657
+	}
+    manpower = 1519300
+    buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
+            

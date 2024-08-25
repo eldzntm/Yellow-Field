@@ -1,0 +1,22 @@
+
+state = {
+	id = 836
+	name = "STATE_836"
+    resources={
+        
+    }
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces = {
+		1965 7913 8089 13260 13261
+	}
+    manpower = 1285771
+    buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
+            

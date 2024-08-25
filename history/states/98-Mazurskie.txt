@@ -1,23 +1,22 @@
-state={
-	id=98
-	name="STATE_98"
-	manpower = 1412100
-	
-	state_category = rural
+
+state = {
+	id = 98
+	name = "STATE_98"
+    resources={
+        
+    }
+
 	history={
-		victory_points = {
-			3230 5
-		}
-		owner = POL
-		buildings = {
-			infrastructure = 3
-		}
-		add_core_of = POL
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		548 3230 6259 6321 6401 6567 9290 9316 11385 
+	provinces = {
+		3230 6259 6321 6567 9290 9316 11329
 	}
-
-	local_supplies=7.0 
+    manpower = 1300000
+    buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
+            

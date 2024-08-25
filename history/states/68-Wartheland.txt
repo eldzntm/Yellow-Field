@@ -1,29 +1,22 @@
 
-state={
-	id=68
-	name="STATE_68"
-	manpower = 1250840
-	resources={
-		aluminium=15 # was: 24
-	}
-
-	state_category = city
+state = {
+	id = 68
+	name = "STATE_68"
+    resources={
+        aluminium=15
+    }
 
 	history={
-		victory_points = {
-			3473 1
-		}
-		owner = GER
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-		}
-		add_core_of = GER
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		444 537 3473 3572 6236 9387 11478 
+	provinces = {
+		444 537 3473 3572 6236 9387 9496 9535 11415 11478
 	}
-
-	local_supplies=0.0 
+    manpower = 1244525
+    buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
+            

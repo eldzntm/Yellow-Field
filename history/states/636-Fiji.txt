@@ -1,29 +1,22 @@
 
-state={
-	id=636
-	name="STATE_636"
-	manpower = 180000
-	
-	state_category = small_island
+state = {
+	id = 636
+	name = "STATE_636"
+    resources={
+        
+    }
 
 	history={
-		owner = ENG
-		add_core_of = FIJ
-		buildings = {
-			infrastructure = 2
-			4286 = {
-				naval_base = 1
-			}
-		}
-		
-		victory_points = {
-			4286 1 
-		}
-	}
-	
-	provinces={
-		4286 7302 12159 
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	local_supplies=0.0 
+	provinces = {
+		4286 7302 12159
+	}
+    manpower = 1600000
+    buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
 }
+            

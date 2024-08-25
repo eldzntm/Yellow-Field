@@ -1,28 +1,22 @@
 
-state={
-	id=764
-	name="STATE_764"
-	manpower = 585579
-	state_category = rural
+state = {
+	id = 764
+	name = "STATE_764"
+    resources={
+        
+    }
 
 	history={
-		owner = YUG
-		controller = YUG
-		victory_points = {
-			3614 1
-		}
-
-		buildings = {
-			infrastructure = 3 #was: 6
-		}
-		add_core_of = YUG
-		add_core_of = SER
-		add_core_of = TRA
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
+	provinces = {
 		614 3614 6643 11787
 	}
-
-	local_supplies=2.0 
+    manpower = 585579
+    buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
+            

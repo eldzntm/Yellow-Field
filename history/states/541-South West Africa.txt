@@ -1,29 +1,22 @@
 
-state={
-	id=541
-	name="STATE_541"
-	manpower = 254100
-	state_category = pastoral
+state = {
+	id = 541
+	name = "STATE_541"
+    resources={
+        
+    }
 
 	history={
-		owner = SAF
-		buildings = {
-			infrastructure = 2
-
-		}
-		victory_points = {
-			4879 1 
-		}
-		add_core_of = SAF
-		add_core_of = NMB
-
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		2207 4879 7770 
+	provinces = {
+		2229 4879 5154 5189 7605 7770 8136 10957 10963 10978 12519 12921 13217
 	}
-	
-	buildings_max_level_factor=1.000
-	
+    manpower = 210000
+    buildings_max_level_factor=1.000
+	state_category=wasteland
 	local_supplies=0.000
 }
+            

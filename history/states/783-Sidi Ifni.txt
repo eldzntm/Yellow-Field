@@ -1,29 +1,22 @@
 
-state={
-	id=783
-	name="STATE_783" # Sidi Ifni
-	manpower = 11043
-	
-	state_category = pastoral
+state = {
+	id = 783
+	name = "STATE_783"
+    resources={
+        
+    }
 
 	history={
-		victory_points = {
-			12857 1
-		}
-
-		owner = SPR
-		add_core_of = MOR
-		buildings = {
-			infrastructure = 1
-			12857 = {
-				naval_base = 1
-			}
-		}
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
+	provinces = {
 		12857
 	}
-
-	local_supplies=0.0 
+    manpower = 11043
+    buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }
+            

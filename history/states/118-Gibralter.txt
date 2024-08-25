@@ -1,26 +1,22 @@
-state=
-{
-	id=118
-	name="STATE_118"
-	manpower=21372
-	
-	state_category = enclave
+
+state = {
+	id = 118
+	name = "STATE_118"
+    resources={
+        
+    }
+
 	history={
-		owner = ENG
-		victory_points = { 4135 10 }
-		buildings = {
-			infrastructure = 3
-			air_base = 2
-			4135 = {
-				naval_base = 5
-				coastal_bunker = 2
-			}
-		}
-		add_claim_by = SPR
-	}
-	provinces={
-		4135
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	local_supplies=0.0 
+	provinces = {
+		4135
+	}
+    manpower = 29000
+    buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
 }
+            

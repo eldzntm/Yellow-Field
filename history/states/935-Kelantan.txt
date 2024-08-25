@@ -1,0 +1,22 @@
+
+state = {
+	id = 935
+	name = "STATE_935"
+    resources={
+        rubber=5
+    }
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces = {
+		7329 13076
+	}
+    manpower = 282000
+    buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
+            

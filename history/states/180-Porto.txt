@@ -1,33 +1,22 @@
 
-state={
-	id=180
-	name="STATE_180"
-	manpower = 1904600
-	
-	state_category = large_town
+state = {
+	id = 180
+	name = "STATE_180"
+    resources={
+        
+    }
 
 	history={
-		owner = POR
-		victory_points = {
-			9817 10
-		}
-		victory_points = {
-			11673 5
-		}
-		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 2
-			dockyard = 1
-			9817 = {
-				naval_base = 3
-			}
-		}
-		add_core_of = POR
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		724 877 3892 6921 6941 9817 11673 
+	provinces = {
+		724 877 3892 6921 6941 9817 11673
 	}
-
-	local_supplies=0.0 
+    manpower = 964700
+    buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }
+            

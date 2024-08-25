@@ -1,28 +1,22 @@
 
-state={
-	id=611
-	name="STATE_611" # South Chahar
-	manpower = 1470000
-	
-	state_category = pastoral
+state = {
+	id = 611
+	name = "STATE_611"
+    resources={
+        
+    }
 
 	history={
-		owner = MEN
-		add_core_of = MEN
-		add_core_of = CHI
-		add_core_of = PRC
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-		}
-		victory_points = {
-			11752 4
-		}
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		828 952 1137 1489 1590 4495 4612 6904 7545 7674 9776 10397 11752 
+	provinces = {
+		828 881 952 1137 1590 3955 6904 9768 9776 10397
 	}
-
-	local_supplies=0.0 
+    manpower = 3831960
+    buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }
+            

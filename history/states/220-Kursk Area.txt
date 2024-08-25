@@ -1,25 +1,22 @@
 
-state={
-	id=220
-	name="STATE_220"
-	manpower = 1680086
-	state_category = city
+state = {
+	id = 220
+	name = "STATE_220"
+    resources={
+        
+    }
 
 	history={
-		owner = SOV
-		victory_points = {
-			3580 5
-		}
-		buildings = {
-			infrastructure = 3 #was: 5
-			air_base = 1
-		}
-		add_core_of = SOV
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		457 558 580 3554 3580 6254 6304 6543 6603 9260 9542 9579 11244 11526 
+	provinces = {
+		302 457 558 3554 3580 6330 6543 6577 6603 9260 9542 11244
 	}
-
-	local_supplies=0.0 
+    manpower = 1571742
+    buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
+            

@@ -1,35 +1,22 @@
 
-state={
-	id=499
-	name="STATE_499"
-	manpower = 4233900
-	
-	state_category = large_town
-
-	resources = {
-		chromium = 3
-	}
+state = {
+	id = 499
+	name = "STATE_499"
+    resources={
+        chromium=5.000
+    }
 
 	history={
-		owner = BRA
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-			air_base = 1
-			10946 = {
-				naval_base = 1
-			}
-		}
-		add_core_of = BRA
-		victory_points = {
-			10946 1 
-		}
-
+		owner = LUX
+		add_core_of = LUX
 	}
 
-	provinces={
-		4617 5194 8143 8177 8184 8197 8242 10392 10926 10946 5174 8129 5218 12422 10419 11002
+	provinces = {
+		4617 5174 5194 5218 8129 8143 8177 8184 8197 8242 10392 10419 10926 10946 11002 12422
 	}
-
-	local_supplies=0.0 
+    manpower = 2789521
+    buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }
+            

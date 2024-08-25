@@ -1,34 +1,22 @@
 
-state={
-	id=619
-	name="STATE_619" # Yarkand
-	manpower = 1430700
-	
-	state_category = pastoral
-	
-	resources={
-		aluminium=2 # was: 2
-		chromium=2 # was: 3
-	}
+state = {
+	id = 619
+	name = "STATE_619"
+    resources={
+        
+    }
 
 	history={
-		owner = SIK
-		add_core_of = SIK
-		add_core_of = CHI
-		add_core_of = PRC
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-		}
-		victory_points = {
-			2015 2
-		}
+		owner = LUX
+		add_core_of = LUX
 	}
 
-
-	provinces={
-		1766 1970 2015 4828 5016 5087 7790 7949 8112 12119 
+	provinces = {
+		1838 4704 4843 7732 10839 12524 12598 12671
 	}
-
-	local_supplies=0.0 
+    manpower = 54568
+    buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }
+            

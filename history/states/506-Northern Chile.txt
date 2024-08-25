@@ -1,39 +1,22 @@
+
 state = {
 	id = 506
-	name = "STATE_506" # Antofagasta
-	manpower = 423605
-	
-	state_category = town
+	name = "STATE_506"
+    resources={
+        
+    }
 
-	resources = {
-		tungsten = 42 # In replacement of Nitrate
-	}
-
-	history = {
-
-		owner = CHL
-		add_core_of = CHL
-		add_claim_by = BOL
-
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			dockyard = 1
-			air_base = 1
-			12994 = {
-				naval_base = 1
-			}
-		}
-		
-		victory_points = {
-			12994 10
-		}
-
+	history={
+		owner = LUX
+		add_core_of = LUX
 	}
 
 	provinces = {
-		5146 5171 12994 13301 13302 13304
+		5146 5171 5192 5228 11000 12914
 	}
-
-	local_supplies = 0.0 
+    manpower = 121625
+    buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
+            
