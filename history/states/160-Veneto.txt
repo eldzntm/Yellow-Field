@@ -9,7 +9,8 @@ state = {
 
 	history={
 		owner = LUX
-		add_core_of = LUX
+		add_core_of = ITA
+		add_claim_by = AUS
 	}
 
 	provinces = {

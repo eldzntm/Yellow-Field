@@ -8,8 +8,8 @@ state = {
     }
 
 	history={
-		owner = LUX
-		add_core_of = LUX
+		owner = AFG
+		add_core_of = AFG
 	}
 
 	provinces = {

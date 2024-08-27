@@ -7,7 +7,7 @@ state = {
     }
 
 	history={
-		owner = LUX
+		owner = GER
 		add_core_of = LUX
 	}
 
